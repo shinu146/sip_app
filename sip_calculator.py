@@ -11,7 +11,7 @@ def calculate_and_plot_sip_with_increase(rate, years, initial_sip, sip_increase_
     total_invested = np.zeros(months + 1)
     sip_amounts = np.zeros(months + 1)
     
-    portfolio_values[0] = initial_investment
+    # portfolio_values[0] = initial_investment
     total_invested[0] = initial_investment
     sip_amounts[0] = initial_sip
     
